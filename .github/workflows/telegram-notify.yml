@@ -4,7 +4,7 @@ name: Telegram Write Journal Notification
 on:
   schedule:
     # Cron syntax: minute hour day month day-of-week
-    - cron: "0 8 * * *" # Every day at 8:00 AM UTC
+    - cron: "0 15 * * *" # Every day at 3:00 PM UTC (10:00 PM Hanoi time)
   workflow_dispatch: # Allow manual triggering as well
 
 jobs:
